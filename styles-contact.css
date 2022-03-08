@@ -1,0 +1,175 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+	
+	h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/backgroundphoto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 50px auto;
+ 	background: rgba(200, 150, 150, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px dotted rgb(222, 222, 138);
+	border-radius: 5px;
+}
+
+.dot {
+	height: 300px;
+	width: 300px;
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 50px;
+	text-align: center;
+	display: inline-block;
+  }
+   
+#logo {
+	width: 300px;
+	height:400px;
+    margin-bottom:0px;
+	text-align: center;
+	position: relative;
+}
+
+}
+.stack-top{
+	z-index: 9;
+	margin: 20px; /* for demo purpose  */
+}
+
+
+h1 {
+	font-family: decoy, serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2em; 
+	margin: 3px auto 3px auto;
+	color: rgb(18, 109, 111)
+} 
+h2 {
+	font-family: Verdana, sans-serif;
+font-style: bold;
+font-weight: 900;
+	font-size: 1em; 
+	line-height: .5; 
+	letter-spacing: 2px;
+	padding: 20px 20px; 
+	margin-top: 200px;
+	margin: 0px auto 5px auto;
+	color:maroon
+} 
+h3 { 
+	font-family: Georgia, serif
+font-style: normal;
+font-weight: 400;
+	font-size: 1 em;
+	line-height:1.8;
+	color:white
+}
+}nav{
+	font-family: decoy, serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2em; 
+	width: 500px; /* This is the width of the nav element */
+	margin:  auto; /* This centers the entire nav element inside
+	the center div */
+	border: rgb(218, 218, 129)
+	dotted turquoise;
+	border-width: 4px 0; /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */ text-align: center;
+	border-radius: 50px ;
+	margin-top: 5em; /* This adds a bit of space above the nav element */
+	}
+	nav li{
+		 display: inline; /* This allows
+		 the block level elements to
+		 display next to one another */
+		 }
+	nav a{display: inline-block;
+	padding: 15px; /* This adds space around each of the links */
+	}
+
+	a{
+		 color: rgba(179, 223, 148, 0.75);
+		 text-decoration: none; /* This
+		 removes the underline */
+		 font-weight: bold;
+		 }
+	a:hover{
+		 color: maroon;
+		 background: pink; /* This is the
+		 pink hover effect -- you’ll want to
+		 change this! */
+		 }
+	  
+
+    
+
